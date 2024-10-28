@@ -194,7 +194,10 @@ Create stripe.ts and stripe-client.ts files (see code)
 
 Create a Stripe checkout session using the [Stripe docs](https://docs.stripe.com/api/checkout/sessions/create?lang=node) for guidance
 
-### [Webhooks](https://docs.stripe.com/webhooks)
+### Webhooks
+
+See [Stripe-Webhooks](https://docs.stripe.com/webhooks) section for guidance
+
 When building Stripe integrations, you might want your applications to receive events as they occur in your Stripe accounts, so that your backend systems can execute actions accordingly.
 
 Once you update your Webhook route.ts code, go to your Stripe dashboard and go to the Webhooks section. Click Add an Endpoint. Make a url something like:
