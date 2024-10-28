@@ -2,7 +2,7 @@
 
 The SaaS-Widget includes:
 <li>Building framework with Vite & React</li>
-<li>Styling the Widget</li>
+<li>Styling with Tailwind, Shadcn-UI and Lucide</li>
 
 ## Build initial framework with Vite & React
 
@@ -27,7 +27,7 @@ To start the application, run:
 npm run dev
 ```
 
-## Create/Style a Widget
+## Style the Widget
 
 ### Install and integrate Tailwind
 
