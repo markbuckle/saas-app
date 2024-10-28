@@ -1,16 +1,18 @@
 # SaaS Dashboard
 
-## Authentication with NextJS
+The SaaS-Dashboard includes:
+<li>Installing Authentication features</li>
+<li></li>
+<li></li>
 
-### Install
+## Installing Next.js, Clerk, Shadcn-UI, and Lucide-React for Authentication
+
 Using the [nextjs docs](https://nextjs.org/docs/getting-started/installation) for guidance.
 
 In your terminal run:
 ```pwsh
 npx create-next-app@latest
 ```
-<img width=600px src="">
-
 Open up the new saas-dashbaord folder in VS code 
 Run:
 ```pwsh
