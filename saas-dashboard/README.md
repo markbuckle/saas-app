@@ -208,6 +208,7 @@ and add the relevant events that are in your route.ts file.
 
 ## Landing Page
 
+See files in the [landing-page](./saas-dashboard/app/landing-page/) folder. 
 
 ## Deploy on Vercel
 
