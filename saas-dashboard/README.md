@@ -3,8 +3,9 @@
 ## Authentication with NextJS
 
 ### Install
-Go to the [nextjs docs](https://nextjs.org/docs/getting-started/installation)
-In the command prompt run:
+Using the [nextjs docs](https://nextjs.org/docs/getting-started/installation) for guidance.
+
+In your terminal run:
 ```pwsh
 npx create-next-app@latest
 ```
