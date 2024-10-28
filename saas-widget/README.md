@@ -1,4 +1,8 @@
-# SaaS-Widget
+# SaaS Widget
+
+The SaaS-Widget includes:
+<li>Building framework with Vite & React</li>
+<li>Styling the Widget</li>
 
 ## Build initial framework with Vite & React
 
@@ -23,7 +27,7 @@ To start the application, run:
 npm run dev
 ```
 
-## Create an Embeddable widget
+## Create/Style a Widget
 
 ### Install and integrate Tailwind
 
