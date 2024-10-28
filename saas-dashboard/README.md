@@ -2,8 +2,12 @@
 
 The SaaS-Dashboard includes:
 <li>Installing Authentication features</li>
-<li></li>
-<li></li>
+<li>Database Setup</li>
+<li>Projects Page</li>
+<li>Feedback Table</li>
+<li>Payment Setup & Webhooks</li>
+<li>Landing Page</li>
+<li>Deployment</li>
 
 ## Installing Next.js, Clerk, Shadcn-UI, and Lucide-React for Authentication
 
@@ -170,6 +174,8 @@ Create a new file in the /src folder called supabaseClient.js
 
 ## Payments
 
+### Stripe
+
 Create a Stripe account then go to the [Developers console](https://dashboard.stripe.com/test/developers). Go to the API keys section and include the keys in your .env.local file with the designated names below. Copy and paste the value for each key provided in your account:
 ```.env
 NEXT_PUBLIC_PUBLISHABLE_KEY=xxxxxxxxxxxxxxx
@@ -199,17 +205,9 @@ and add the relevant events that are in your route.ts file.
 
 ## Landing Page
 
-## Next.js documentation
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+One of the easiest ways to deploy a Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I used the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for guidance.
